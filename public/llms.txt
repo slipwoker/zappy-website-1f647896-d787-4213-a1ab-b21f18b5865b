@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מומחים בבנייה קלה וקונסטרוקציית פלדה לפרויקטים מגורים, מסחר ותעשייה. דיוק, בטיחות ועמידה בלוחות זמנים. שירות מקצועי ואמין בכל הארץ.
+
+### שירותים
+https://example.com/services
+גלריות פלדה, תוספות בנייה, חיזוק קונסטרוקטיבי, מחסנים ומבני תעשייה. שירות מלא מתכנון ועד ביצוע עם התמקדות במהירות ואיכות גבוהה.
+
+### פרויקטים
+https://example.com/projects
+צפו בתיק העבודות המרשים שלנו: יחידות דיור, גלריות פלדה, מבני תעשייה ומסחר. עשרות פרויקטים שהושלמו במקצועיות ובזמן בכל רחבי ישראל.
+
+### צור קשר
+https://example.com/contact
+צרו קשר עוד היום לייעוץ מקצועי והצעת מחיר ללא התחייבות. אנחנו זמינים לכל שאלה ונשמח לסייע בהפיכת הפרויקט שלכם למציאות.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
