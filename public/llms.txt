@@ -1,6 +1,4 @@
-# ד.י פרוייקטים — Generative Engine Optimization Map
-
-> A professional construction company specializing in lightweight building systems and steel construction for residential, commercial, and industrial projects. The brand emphasizes precision, safety, high-quality workmanship, speed, and efficiency. They offer comprehensive services from planning to execution, including housing units, building additions, steel galleries, structural reinforcement, warehouses, and industrial facilities. The company operates nationwide with a focus on reliable, professional service and adherence to timelines.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About ד.י פרוייקטים
-A professional construction company specializing in lightweight building systems and steel construction for residential, commercial, and industrial projects. The brand emphasizes precision, safety, high-quality workmanship, speed, and efficiency. They offer comprehensive services from planning to execution, including housing units, building additions, steel galleries, structural reinforcement, warehouses, and industrial facilities. The company operates nationwide with a focus on reliable, professional service and adherence to timelines.
-
-## Target Audience
-לקוחות פרטיים, מסחריים ותעשייתיים
-
-## Industry
-בנייה ושיפוצים
-
+## About Business
 ---
 
 # Additional Resources
