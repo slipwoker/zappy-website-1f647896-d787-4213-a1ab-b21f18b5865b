@@ -6064,6 +6064,222 @@ footer .contact-list li a[href^="mailto"]::before {
 /* Added Component Styles */
 
 
+/* Added Component Styles */
+/* ===== Features Section ===== */
+.features-section {
+  direction: rtl;
+  font-family: 'Heebo', 'Assistant', system-ui, Arial, sans-serif;
+  background: #F7F8F9;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.features-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(180deg, #F28A1A 0%, #B46A16 100%);
+}
+
+/* Decorative background shape */
+.features-section::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -80px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(242,138,26,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Container */
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.features-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.features-eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #F28A1A;
+  background: rgba(242,138,26,0.1);
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.features-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+.features-subtitle {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  color: var(--primary, #6F757B);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+/* Feature Card */
+.feature-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 36px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(242,138,26,0.14);
+}
+
+.feature-card:hover .feature-accent {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.feature-card:hover .feature-icon-wrap {
+  background: linear-gradient(180deg, #F28A1A 0%, #B46A16 100%);
+}
+
+.feature-card:hover .feature-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Icon Wrap */
+.feature-icon-wrap {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  background: rgba(242,138,26,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+
+.feature-icon {
+  width: 36px;
+  height: 36px;
+  transition: filter 0.3s ease;
+}
+
+/* Content */
+.feature-content {
+  flex: 1;
+}
+
+.feature-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+
+.feature-desc {
+  font-size: 0.93rem;
+  color: var(--primary, #6F757B);
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* Accent bottom bar */
+.feature-accent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(180deg, #F28A1A 0%, #B46A16 100%);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: opacity 0.3s ease, transform 0.35s ease;
+  border-radius: 0 0 16px 16px;
+}
+
+/* Focus accessibility */
+.feature-card:focus-within {
+  outline: 2px solid #F28A1A;
+  outline-offset: 2px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .features-section {
+    padding: 60px 16px;
+  }
+
+  .features-header {
+    margin-bottom: 40px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 28px 22px 26px;
+  }
+
+  .feature-icon-wrap {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 18px;
+  }
+
+  .feature-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
