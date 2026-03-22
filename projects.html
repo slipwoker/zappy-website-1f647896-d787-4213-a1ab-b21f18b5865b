@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" data-phone="0545249955" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -794,7 +794,7 @@
     </div>
   </div>
   <div class="projects-banner-divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,0 L1200,40 L1200,60 Z" fill="#E6E6E4"></path>
     </svg>
   </div>
@@ -892,13 +892,13 @@
 
   <!-- Bottom Divider: Riveted Steel Bar -->
   <div class="projects-gallery-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="steelBarGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="steelBarGradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#3A4148;stop-opacity:1"></stop>
           <stop offset="50%" style="stop-color:#6F757B;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#22272B;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <!-- Steel bar base -->
       <rect x="0" y="15" width="1200" height="45" fill="url(#steelBarGradient)"></rect>
@@ -977,18 +977,18 @@
 
   <!-- Bottom Divider (Shadowed Overlap Effect) -->
   <div class="projects-case-studies-divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 24" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="case-studies-shadow" x="-50%" y="-50%" width="200%" height="200%">
-          <fegaussianblur in="SourceAlpha" stddeviation="3"></fegaussianblur>
-          <feoffset dx="0" dy="2" result="offsetblur"></feoffset>
-          <fecomponenttransfer>
-            <fefunca type="linear" slope="0.3"></fefunca>
-          </fecomponenttransfer>
-          <femerge>
-            <femergenode></femergenode>
-            <femergenode in="SourceGraphic"></femergenode>
-          </femerge>
+          <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
+          <feOffset dx="0" dy="2" result="offsetblur"></feOffset>
+          <feComponentTransfer>
+            <feFuncA type="linear" slope="0.3"></feFuncA>
+          </feComponentTransfer>
+          <feMerge>
+            <feMergeNode></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
         </filter>
       </defs>
       <rect x="0" y="0" width="300" height="24" fill="var(--secondary)" filter="url(#case-studies-shadow)"></rect>
@@ -1038,12 +1038,12 @@
   </div>
 
   <div class="projects-standards-divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="projects-standards-dust-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="projects-standards-dust-fade" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:var(--secondary);stop-"></stop>
           <stop offset="100%" style="stop-color:var(--bg-dark);stop-opacity:0.4"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,100 L0,30 Q100,25 200,32 T400,28 Q500,35 600,30 T800,32 Q900,28 1000,35 T1200,30 L1200,100 Z" fill="#2F3438"></path>
       <path d="M0,100 L0,50 Q150,45 300,52 T600,48 Q750,55 900,50 T1200,52 L1200,100 Z" fill="#2F3438" opacity="0.6"></path>
@@ -1068,7 +1068,54 @@
   </main>
   
   <footer class="site-footer">
-  <div class="footer-container"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1774180781989-iewl3p5rk" data-icon-type="fontawesome" style="font-size: 16px !important; color: rgb(163, 123, 76); cursor: pointer;" contenteditable="false"></i></div>
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-column footer-company">
+        <img src="/assets/logo-1774177069468-e4g85e.webp?v=1774177069903-eay7qo" alt="ד.י פרוייקטים" class="logo zappy-editable-image" data-element-type="image" data-element-id="img-1774180781993-h3jr2qadq" data-original-position="static" style="position: relative;" data-resize-handler-attached="true">
+        <p class="footer-tagline" style="">מומחים בעבודות בנייה קלה ועבודות קונסטרוקציה<br>איכות ומקצועיות ללא פשרות</p>
+      </div>
+      
+      <div class="footer-column footer-links">
+        <h3 class="footer-heading">קישורים מהירים</h3>
+        <ul class="footer-nav" style=""><li><a href="/services">שירותים</a></li><li><a href="/projects">פרויקטים</a></li><li><a href="/contact" style="">צור קשר</a></li></ul>
+      </div>
+      
+      <div class="footer-column footer-contact">
+        <h3 class="footer-heading" style="">יצירת קשר</h3>
+        <ul class="contact-list" style=""><li>
+            
+            <p style=""><a href="mailto:dybuilding770@gmail.com" style="">dybuilding770@gmail.com</a>
+          </p></li><li>
+            <i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1774180781990-32bf5irqp" data-icon-type="fontawesome" style="cursor: pointer;"></i>
+            <a href="tel:0545249955">0545249955</a>
+          </li><li><a href="/"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1773834287531-k3vlgk47s" data-icon-type="fontawesome" style="cursor: pointer;"></i><span>&nbsp;רמלה ,עמיחי 25. ישראל</span></a></li></ul>
+      </div>
+      
+      <div class="footer-column footer-social">
+        <h3 class="footer-heading">עקבו אחרינו</h3>
+        <div class="social-links">
+          <a href="https://facebook.com/#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/#" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1774180781990-ik4y7ygkb" data-icon-type="fontawesome"></i></a>
+          <a href="https://wa.me/message/QQW4IM4RA2VEG1" aria-label="WhatsApp" data-zappy-original-link="true" data-zappy-orig-href="https://wa.me/972545249955" data-zappy-orig-target="" data-zappy-orig-rel="" data-zappy-click-action="link" target="_blank" rel="noopener noreferrer"><div class="zappy-icon-alignment-wrapper" style="display: flex; width: 100%; justify-content: center;"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="13" height="13" viewBox="0 0 12 12" data-icon="garden:whatsapp-fill-12" data-iconify="garden:whatsapp-fill-12" data-element-type="icon" data-element-id="icon-1774180781990-xrp6x614n" data-icon-type="iconify" data-size-adjusted="true" style="display: inline-block; vertical-align: -0.125em; color: rgb(244, 246, 248); width: 13px !important; height: 13px !important; cursor: pointer;" class="iconify iconify--garden" data-zappy-click-action="link"><path fill="currentColor" d="M6 0a6 6 0 1 1-3.002 11.196l-2.34.778a.5.5 0 0 1-.632-.632l.78-2.339A6 6 0 0 1 6 0M3.932 3.003a.52.52 0 0 0-.394.2c-.135.158-.516.543-.516 1.325c0 .783.529 1.54.603 1.646c.073.104 1.041 1.71 2.522 2.4q.413.192.84.335c.354.12.677.104.932.064c.284-.045.873-.384.996-.757c.122-.37.122-.689.085-.755s-.135-.107-.284-.188a24 24 0 0 0-1.008-.516c-.135-.054-.234-.08-.332.08c-.099.159-.38.518-.467.624c-.085.103-.172.118-.32.039s-.623-.248-1.187-.79a4.7 4.7 0 0 1-.82-1.102c-.088-.16-.01-.245.063-.325c.067-.07.148-.185.222-.279c.073-.09.099-.157.148-.264c.049-.106.024-.2-.013-.278c-.037-.08-.332-.864-.456-1.183c-.12-.31-.241-.266-.332-.272c-.085-.004-.183-.004-.282-.004"></path></svg></div></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <p class="copyright">© 2026 ד.י פרוייקטים. כל הזכויות שמורות.</p>
+        <div class="footer-legal">
+          <a href="/privacy">מדיניות פרטיות</a>
+          <span class="separator">|</span>
+          <a href="/terms">תנאי שימוש</a>
+          <span class="separator">|</span>
+          <a href="/accessibility">נגישות</a>
+          <span class="separator">|</span>
+          <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
   
   <a href="https://wa.me/972545249955" class="whatsapp-float" aria-label="WhatsApp">
