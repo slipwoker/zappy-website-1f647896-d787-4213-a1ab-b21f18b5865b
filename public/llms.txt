@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# ד.י פרוייקטים — Generative Engine Optimization Map
+
+> A professional construction company specializing in lightweight building systems and steel construction for residential, commercial, and industrial projects. The brand emphasizes precision, safety, high-quality workmanship, speed, and efficiency. They offer comprehensive services from planning to execution, including housing units, building additions, steel galleries, structural reinforcement, warehouses, and industrial facilities. The company operates nationwide with a focus on reliable, professional service and adherence to timelines.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://dy-projects.zappy5.app
 מומחים בבנייה קלה וקונסטרוקציית פלדה לפרויקטים מגורים, מסחר ותעשייה. דיוק, בטיחות ועמידה בלוחות זמנים. שירות מקצועי ואמין בכל הארץ.
 
 ### שירותים
-https://example.com/services
+https://dy-projects.zappy5.app/services
 גלריות פלדה, תוספות בנייה, חיזוק קונסטרוקטיבי, מחסנים ומבני תעשייה. שירות מלא מתכנון ועד ביצוע עם התמקדות במהירות ואיכות גבוהה.
 
 ### פרויקטים
-https://example.com/projects
+https://dy-projects.zappy5.app/projects
 צפו בתיק העבודות המרשים שלנו: יחידות דיור, גלריות פלדה, מבני תעשייה ומסחר. עשרות פרויקטים שהושלמו במקצועיות ובזמן בכל רחבי ישראל.
 
 ### צור קשר
-https://example.com/contact
+https://dy-projects.zappy5.app/contact
 צרו קשר עוד היום לייעוץ מקצועי והצעת מחיר ללא התחייבות. אנחנו זמינים לכל שאלה ונשמח לסייע בהפיכת הפרויקט שלכם למציאות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://dy-projects.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://dy-projects.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://dy-projects.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About ד.י פרוייקטים
+A professional construction company specializing in lightweight building systems and steel construction for residential, commercial, and industrial projects. The brand emphasizes precision, safety, high-quality workmanship, speed, and efficiency. They offer comprehensive services from planning to execution, including housing units, building additions, steel galleries, structural reinforcement, warehouses, and industrial facilities. The company operates nationwide with a focus on reliable, professional service and adherence to timelines.
+
+## Target Audience
+לקוחות פרטיים, מסחריים ותעשייתיים
+
+## Industry
+בנייה ושיפוצים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://dy-projects.zappy5.app/sitemap.xml
+- **Robots.txt**: https://dy-projects.zappy5.app/robots.txt
